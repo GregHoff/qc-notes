@@ -1,81 +1,24 @@
 # Docker Setup Instructions for Jupyter Environment with GUI Support
 
 ## Prerequisites
-1. Install Docker and Docker Compose on your system:
+Install Docker and Docker Compose on your system:
    - [Docker for Windows](https://docs.docker.com/desktop/install/windows-install/)
    - [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/)
    - [Docker for Linux](https://docs.docker.com/engine/install/)
 
-2. Git (Verify if git is installed using `git --version` command)
-
-   ### 1. Follow these steps to install git on your operating system
-   <details>
-   <summary>Windows</summary>
-
-      1. Download Git from [https://git-scm.com/downloads/win](https://git-scm.com/downloads/win)
-      2. Run the installer, using default settings (or customize if you prefer)
-   </details>
-
-   <details>
-   <summary>Mac</summary>
-      Install using Homebrew (recommended):
-
-      ```bash
-      # Install Homebrew if not installed
-      /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"
-
-      # Install Git
-      brew install git
-      ```
-      Or download installer from [https://git-scm.com/download/mac](https://git-scm.com/download/mac)
-   </details>
-
-   <details>
-   <summary>Linux</summary>
-
-      * Linux (Ubuntu/Debian)
-
-      ```bash
-      sudo apt update
-      sudo apt install git-all
-      ```
-      
-      OR
-
-      Use [this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) documentation to install git in linux (according to your linux distribution)
-   </details>
-
-   ### 2. Verify installation:
-
-   Verify installation by opening Command Prompt or PowerShell and typing:
-   ```bash
-   git --version
-   ```
-   ### 3. Configure Git (First-time setup)
-
-   ``` bash
-   # Set your name
-   git config --global user.name "Your Name"
-   # Set your email
-   git config --global user.email "your.email@example.com"
-   # Optional: Set default branch name to main
-   git config --global init.defaultBranch main
-   ```
 
 ## Setup Instructions
-
-### Option 1 - Running from pre-built image (Easier)
 
 
 You can quickly run this environment without cloning the repository by pulling directly from DockerHub:
 ```bash
-docker pull sahil624/qc_notes:latest
+docker pull ksucyber/qc-notes:latest
 ```
 
 **Run the container**
 
 ``` bash
-docker run -p 8888:8888 -p 8080:8080 sahil624/qc_notes:latest
+docker run -p 8888:8888 -p 8080:8080 ksucyber/qc-notes:latest
 ```
 
 Access Jupyter Lab at `http://localhost:8888` and noVNC at `http://localhost:8080/vnc.html` as described in the Usage Instructions section below.
@@ -84,32 +27,7 @@ Access Jupyter Lab at `http://localhost:8888` and noVNC at `http://localhost:808
 
 ``` bash
 # Run with persistent storage
-docker run -p 8888:8888 -p 8080:8080 -v ./notebooks:<any_path_in_host_to save_data> sahil624/qc_notes:latest
-```
-
-### Option 2 - Building image from source code
-
-1. Open a terminal (Command Prompt or PowerShell on Windows, Terminal on Mac/Linux)
-
-2. Navigate to where you want to store the project:
-
-   ``` bash
-      # Windows example (Use your desired directory)
-      cd C:\Users\YourUsername\Documents
-
-      # Mac/Linux example (Use your desired directory)
-      cd ~/Documents
-   ```
-1. Clone the repository:
-```bash
-git clone https://github.com/Sahil624/QC_Notes.git
-cd QC_Notes
-git checkout origin/docker-setup
-```
-
-2. Start the containers (This will take few minutes to run):
-```bash
-docker compose up --build
+docker run -p 8888:8888 -p 8080:8080 -v ./notebooks:<any_path_in_host_to_save_data> ksucyber/qc-notes:latest
 ```
 
 ## Usage Instructions
@@ -139,37 +57,6 @@ docker compose up --build
    - If still not working, restart the Jupyter kernel and try again
 
 2. If ports are already in use, modify the port mappings in docker-compose.yml:
-```yaml
-ports:
-  - "8889:8888"  # For Jupyter
-  - "8081:8080"  # For noVNC
-```
-
-3. If containers don't start properly:
 ```bash
-# Check container logs
-docker compose logs
-
-# Rebuild containers
-docker compose up --build --force-recreate
-```
-
-4. To stop the containers:
-```bash
-docker compose down
-```
-
-## Common Commands
-```bash
-# Start containers in background
-docker compose up -d
-
-# View container logs
-docker compose logs -f
-
-# Stop containers
-docker compose down
-
-# Rebuild and restart containers
-docker compose up --build --force-recreate
+   docker run -p 8889:8888 -p 8081:8080 ksucyber/qc-notes:latest
 ```

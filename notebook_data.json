@@ -1,0 +1,810 @@
+{
+    "The Basics of Complex Numbers": {
+        "module_concepts": [
+            "Complex Numbers",
+            "Operations on Complex Numbers"
+        ],
+        "module_outcomes": [
+            "Students will master the concept of complex number representations.",
+            "Students will be able to perform basic additive and multiplicative operations on complex numbers.",
+            "Students will be able to implement Python programs that perform basic operations of addition and multiplication on complex numbers."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m1-warmup",
+                "m1-background",
+                "m1-imaginaryNumbers",
+                "m1-quiz-1.1",
+                "m1-quiz-1.1-interactive",
+                "m1-complexNumbers"
+            ],
+            [
+                "m1-operationsComplex",
+                "m1-quiz-1.2",
+                "m1-quiz-1.2-interactive"
+            ],
+            [
+                "m1-final-quiz"
+            ]
+        ],
+        "module_prereqs": [
+            "Algebra",
+            "Introduction to Programming",
+            "Python Basics"
+        ],
+        "module_title": "The Basics of Complex Numbers"
+    },
+    "Properties of Complex Numbers": {
+        "module_concepts": [
+            "Properties of Complex Numbers",
+            "Modulus and Conjugation"
+        ],
+        "module_outcomes": [
+            "Students will be able to represent complex numbers as ordered pairs.",
+            "Students will know some of the basic properties of complex numbers and operations on them.",
+            "Students will be able to compute the modulus and conjugate of complex numbers.",
+            "Students will be able to prove basic properties of modulus and conjugate operations.",
+            "Students will be able to implement programs to divide two complex numbers, compute the modulus and conjugate."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m2-background"
+            ],
+            [
+                "m2-background",
+                "m2-properties",
+                "m2-propertiesContd",
+                "m2-quiz-2.1",
+                "m2-quiz-2.1-interactive"
+            ],
+            [
+                "m2-modulusConjugation",
+                "m2-quiz-2.2",
+                "m2-quiz-2.2-interactive"
+            ],
+            [
+                "m2-modulusConjugation",
+                "m2-quiz-2.2",
+                "m2-quiz-2.2-interactive"
+            ],
+            [
+                "m2-final-quiz"
+            ]
+        ],
+        "module_prereqs": [
+            "Algebra",
+            "Introduction to Programming",
+            "Python Basics"
+        ],
+        "module_title": "Properties of Complex Numbers"
+    },
+    "Complex Numbers on a Plane": {
+        "module_concepts": [
+            "Cartesian Representation of Complex Number",
+            "Polar Representation of Complex Numbers"
+        ],
+        "module_outcomes": [
+            "Students will be able to represent complex numbers as Cartesian coordinates and plot them on the complex plane.",
+            "Students will be able to represent complex numbers using polar representations and plot them on the complex plane.",
+            "Students will be able to convert back and forth between Cartesian and polar representations.",
+            "Students will be able to implement programs that convert between Cartesian and polar representations."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m3-cartesianRepresentation"
+            ],
+            [
+                "m3-polarRepresentation",
+                "m3-polarRepresentationExample",
+                "m3-multiplicationPolar"
+            ],
+            [
+                "m3-quiz-3.1",
+                "m3-quiz-3.1-interactive"
+            ],
+            [
+                "m3-final-quiz"
+            ]
+        ],
+        "module_prereqs": [
+            "Algebra",
+            "Trigonometry",
+            "Introduction to Programming",
+            "Python Basics",
+            "The Basics of Complex Numbers"
+        ],
+        "module_title": "Complex Numbers on a Plane"
+    },
+    "Complex Vector Spaces": {
+        "module_concepts": [
+            "Complex Vector Spaces",
+            "Operations with Complex Vector Spaces",
+            "Matrices and Complex Vector Spaces",
+            "Properties of Transpose, Conjugate and Dagger Operations",
+            "Matrix Multiplication and Properties"
+        ],
+        "module_outcomes": [
+            "Students will understand the concept and definition of Complex Vector Spaces.",
+            "Students will be able to perform basic operation in Complex Vector Spaces.",
+            "Students will prove properties of Complex Vector Spaces and operations.",
+            "Students will be able to perform matrix operations and understand and use their properties.",
+            "Student will be able to implement programs that performs addition, multiplication, transpose, conjugate and dagger operations on vectors and matrices."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m4-Background"
+            ],
+            [
+                "m4-OperationsComplexVectors",
+                "m4-OperationsScalar"
+            ],
+            [
+                "m4-quiz-4.1",
+                "m4-quiz-4.1-interactive",
+                "m4-ComplexVectorSpaces",
+                "m4-MatricesComplexVectorSpaces",
+                "m4-PropertiesTransposeConjugateDagger",
+                "m4-quiz-4.2",
+                "m4-quiz-4.2-interactive"
+            ],
+            [
+                "m4-MatrixMultiplication",
+                "m4-IdentityMatrix",
+                "m4-PropertiesMatrixMultiplication",
+                "m4-quiz-4.3",
+                "m4-quiz-4.3-interactive"
+            ],
+            [
+                "m4-final-quiz"
+            ]
+        ],
+        "module_prereqs": [
+            "Linear Algebra",
+            "Complex Numbers",
+            "Introduction to Programming",
+            "Python Basics"
+        ],
+        "module_title": [
+            "Complex Vector Spaces"
+        ]
+    },
+    "Complex Vector Spaces Linear Combination, Independence, Basis and Dimensions": {
+        "module_concepts": [
+            "Linear Dependence and Independence",
+            "Basis and Dimension",
+            "Transition Matrices"
+        ],
+        "module_outcomes": [
+            "Students will understand and apply the concept of linear independence.",
+            "Students will understand and apply the concept of basis and dimension of a complex vector space.",
+            "Students will understand and the apply the concept of transisition Matrices."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m5-LinearDependenceIndependence",
+                "m5-ExamplesLinearDependenceIndependence",
+                "m5-Quiz-5.1",
+                "m5-Quiz-5.1-interactive"
+            ],
+            [
+                "m5-Basis",
+                "m5-Dimension",
+                "m5-Quiz-5.2",
+                "m5-Quiz-5.2-interactive"
+            ],
+            [
+                "m5-TransitionMatrices",
+                "m5-Quiz-5.3",
+                "m5-Quiz-5.3-interactive"
+            ]
+        ],
+        "module_prereqs": [
+            "Linear Algebra",
+            "Complex Numbers",
+            "Introduction to Programming",
+            "Python Basics",
+            "Complex Vector Spaces"
+        ],
+        "module_title": [
+            "Complex Vector Spaces: Linear Combination, Independence, Basis and Dimensions"
+        ]
+    },
+    "Properties and Operations on Vectors and Matrices in Complex Vector Spaces": {
+        "module_concepts": [
+            "Inner Product and Properties",
+            "Norm of a Vector",
+            "Orthogonal Vectors"
+        ],
+        "module_outcomes": [
+            "Students will understand the definition and properties of inner product of vectors and matrices.",
+            "Students will be able to compute the inner product.",
+            "Students will be able to compute the norm of a vector.",
+            "Students will understand and apply the concept of orthogonal/orthonormal vectors and basis.",
+            "Students will be able to represent a vector using a given basis set.",
+            "Students will understand and apply the projection of one vector onto another vector.",
+            "Student will synthesize concepts to write Python programs to determine the norm and inner product of vectors and matrices."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m6-InnerProduct",
+                "m6-PropertiesInnerProduct",
+                "m6-ExamplesInnerProduct"
+            ],
+            [
+                "m6-Quiz-6.1",
+                "m6-Quiz-6.1-interactive"
+            ],
+            [
+                "m6-NormVector",
+                "m6-Quiz-6.2",
+                "m6-Quiz-6.2-interactive"
+            ],
+            [
+                "m6-OrthogonalVectors",
+                "m6-OrthogonalBasis"
+            ],
+            [
+                "m6-OrthogonalBasis"
+            ],
+            [
+                "m6-Projection"
+            ],
+            [
+                "m6-final-quiz"
+            ]
+        ],
+        "module_prereqs": [
+            "Linear Algebra",
+            "Complex Numbers",
+            "Introduction to Programming",
+            "Python Basics",
+            "Complex Vector Spaces"
+        ],
+        "module_title": [
+            "Properties and Operations on Vectors and Matrices in Complex Vector Spaces"
+        ]
+    },
+    "Advanced Concepts in Complex Vector Spaces": {
+        "module_concepts": [
+            "Eigenvalues and Eigenvectors",
+            "Hermitian Matrices",
+            "Unitary Matrices",
+            "Implications of Unitary Transformations"
+        ],
+        "module_outcomes": [
+            "Students will understand the definition and meaning of eigenvalues and eigenvectors and compute them.",
+            "Students will prove properties of Hermitian and unitary matrices.",
+            "Students will be able to verify properties of unitary and Hermitian matrices.",
+            "Students will know the implication of unitary matrices as transformations in quantum computing.",
+            "Students will be able to implement Python programs that check if a given matrix is Hermitian or unitary."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m7-EigenvaluesEigenvectors",
+                "m7-DefinitionEigenvectorsEigenvalues",
+                "m7-Quiz-7.1",
+                "m7-Quiz-7.1-interactive"
+            ],
+            [
+                "m7-HermitianMatrices",
+                "m7-Quiz-7.1",
+                "m7-Quiz-7.1-interactive",
+                "m7-UnitaryMatrices"
+            ],
+            [
+                "m7-Quiz-7.2",
+                "m7-Quiz-7.2-interactive"
+            ],
+            [
+                "m7-ImplicationUnitaryTransformations"
+            ],
+            [
+                "m7-final-quiz"
+            ]
+        ],
+        "module_prereqs": [
+            "Linear Algebra",
+            "Complex Numbers",
+            "Introduction to Programming",
+            "Python Basics",
+            "Complex Vector Spaces"
+        ],
+        "module_title": [
+            "Advanced Concepts in Complex Vector Spaces"
+        ]
+    },
+    "Overview of Tensor Analysis": {
+        "module_concepts": [
+            "Tensor Product",
+            "Tensor Product Matrices"
+        ],
+        "module_outcomes": [
+            "Students will understand the definition of Tensor Product and the joint Basis for two systems.",
+            "Students will be able to perform tensor of matrices and vectors.",
+            "Students will understand the Inseperability of quantum systems in context of tensor products.",
+            "Students will understand computing tensor products.",
+            "Students will learn the properties of Tensor Product of Matrices.",
+            "Students will implement a program that computes the Tensor product of two matrices."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m8-TensorProduct",
+                "m8-JointBasis",
+                "m8-ExampleTensorProduct"
+            ],
+            [
+                "m8-Quiz-8.1"
+            ],
+            [
+                "m8-Entanglement"
+            ],
+            [
+                "m8-TensorProductMatrices",
+                "m8-ExamplesTensorProductMatrices"
+            ],
+            [
+                "m8-PropertiesTensorProductMatrices"
+            ],
+            [
+                "m8-final-quiz"
+            ]
+        ],
+        "module_prereqs": [
+            "Linear Algebra",
+            "Complex Numbers",
+            "Introduction to Programming",
+            "Python Basics"
+        ],
+        "module_title": [
+            "Overview of Tensor Analysis"
+        ]
+    },
+    "From Probabilistic Systems to Quantum Systems": {
+        "module_concepts": [
+            "Probabilistic Model and Measurement",
+            "Operations on Probabilistic Systems",
+            "Classical to Quantum",
+            "Probabilities and Unitary Matrices",
+            "The Classroom Experiment: A Polarized Photon",
+            "Quantum Theory At Work"
+        ],
+        "module_outcomes": [
+            "Students will understand the notion of probabilistic systems.",
+            "Students will be able to create probability vectors for probabilistic systems and apply simple operations on them.",
+            "Students will understand the notion of qubits and types of operations that can be applied to them.",
+            "Student will understand about the Polarized Photon from a Classroom Experiment",
+            "Students will understand the notion of modeling light photons as qubits and determine some of their basic properties with respect to measurement."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m9-ProbabilisticModel"
+            ],
+            [
+                "m9-LookingAtTheStateMeasurement",
+                "m9-quiz-9.1",
+                "m9-quiz-9.1-interactive",
+                "m9-Operation"
+            ],
+            [
+                "m9-FromClassicalToQuantum",
+                "m9-ProbabilitiesAndUnitaryMatrices",
+                "m9-GoingForwardsAndBackwardsInTime",
+                "m9-quiz-9.2",
+                "m9-quiz-9.2-interactive"
+            ],
+            [
+                "m9-PolarizedPhotonExperiment",
+                "m9-SecondFilterExperiment",
+                "m9-ThirdFilterExperiment",
+                "m9-FilterOrientationExperiment",
+                "m9-quiz-9.3",
+                "m9-quiz-9.3-interactive"
+            ],
+            [
+                "m9-QuantumTheoryAtWork",
+                "m9-LightIntensityAndTransmissionProbability",
+                "m9-Conclusions"
+            ]
+        ],
+        "module_prereqs": [
+            "Basic Probability",
+            "Linear Algebra",
+            "Introduction to Quantum Physics"
+        ],
+        "module_title": "From Probabilistic Systems to Quantum Systems"
+    },
+    "Basics of Quantum Computing/Cryptography": {
+        "module_concepts": [
+            "Classical Bits",
+            "Qubits",
+            "Ket Notation",
+            "Qubits and Measurement",
+            "Linear Combination",
+            "Superposition",
+            "Basis"
+        ],
+        "module_outcomes": [
+            "Students will be able to model two level quantum systems using vector and ket representations.",
+            "Students will understand the notions qubit, amplitude and probability of collapse.",
+            "Students will understand the notion of superposition.",
+            "Students will be able to change between basis representations for a given qubit.",
+            "Students will be able to determine if it is a Superposition or Not Superposition"
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m10-ClassicalBits",
+                "m10-Qubits",
+                "m10-KetNotation"
+            ],
+            [
+                "m10-QubitsAndMeasurement",
+                "m10-LinearCombinationAndExample",
+                "m10-quiz-10.1",
+                "m10-quiz-10.1-interactive"
+            ],
+            [
+                "m10-Superposition"
+            ],
+            [
+                "m10-Basis"
+            ],
+            [
+                "m10-SuperpositionOrNotSuperposition",
+                "m10-quiz-10.2",
+                "m10-quiz-10.2-interactive"
+            ]
+        ],
+        "module_prereqs": [
+            "Linear Algebra",
+            "Complex Numbers",
+            "Introduction to Quantum Mechanics"
+        ],
+        "module_title": "Basics of Quantum Computing/Cryptography"
+    },
+    "Basics of Measuring a Qubit": {
+        "module_concepts": [
+            "Qubit Measurement",
+            "Transition Amplitudes",
+            "Global Phase and Relative Phase"
+        ],
+        "module_outcomes": [
+            "Students will understand the basics of measuring a qubit.",
+            "Students will be able to compute the probabilities of outcomes upon measurement.",
+            "Student will be able to compute transition amplitudes from one state to the other.",
+            "Student will understand the notion of global and local phase and their interpretations."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m11-MeasuringAQubit"
+            ],
+            [
+                "m11-MeasuringAQubit"
+            ],
+            [
+                "m11-TransitionAmplitudes",
+                "m11-ComplexQubitTransition",
+                "m11-GeneralTransitionAmplitudes",
+                "m11-ExampleTransitionAmplitude"
+            ],
+            [
+                "m11-GlobalAndRelativePhases",
+                "m11-Quiz-11.1"
+            ]
+        ],
+        "module_prereqs": [
+            "Linear Algebra",
+            "Complex Numbers",
+            "Introduction to Quantum Mechanics"
+        ],
+        "module_title": "Basics of Measuring a Qubit"
+    },
+    "Visualizing a qubit": {
+        "module_concepts": [
+            "Bloch Sphere",
+            "2D Representation"
+        ],
+        "module_outcomes": [
+            "Student will understand the bloch Sphere reprenstation for a qubit.",
+            "Student will be able to simulate bloch Sphere qubit",
+            "Students will understand the notion of qubits and types of operations that can be applied to them.",
+            "Student will be able to simulate the 2D representation"
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m12-BlochSphere",
+                "m12-BlochSphereContd",
+                "m12-BlochSphereContd2"
+            ],
+            [
+                "m12-BlochSphereVisualization",
+                "m12-InteractiveBlochSphereSimulation",
+                "m12-GeometryOfBlochSphere"
+            ],
+            [
+                "m12-Simple2DRepresentation",
+                "m12-BlochSphere2dVisualization",
+                "m12-InteractiveBlochSphere2dSimulation",
+                "m12-UnitCircleVisualization",
+                "m12-InteractiveUnitCircleSimulation"
+            ]
+        ],
+        "module_prereqs": [
+            "Basic Probability",
+            "Linear Algebra",
+            "Introduction to Quantum Physics"
+        ],
+        "module_title": "From Probabilistic Systems to Quantum Systems"
+    },
+    "General Single-Qubit Measurement": {
+        "module_concepts": [
+            "Quantum Measurements",
+            "Projection",
+            "Projection Operators",
+            "Quantum Measurement Postulate",
+            "Density Matrices"
+        ],
+        "module_outcomes": [
+            "Students will understand the theory behind projective measurements.",
+            "Students will understand the measurement postulate in quantum mechanics for projective measurements.",
+            "Students will be able to compute the projection operators for a basis.",
+            "Students will be able to calculate the probabilities of outcomes for a given basis using projection operator and determine the final state of the qubit.",
+            "Students will understand the density matrix formulation and will be able to apply it for projective measurements."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m13-QuantumMeasurements",
+                "m13-ComputingTheProjection"
+            ],
+            [
+                "m13-ComputingTheProjection",
+                "m13-TheProjectionOperators",
+                "m13-MeasurementOperatorIdentity",
+                "m13-ExampleProjectionOperators",
+                "m13-ApplyingProjectionOperators"
+            ],
+            [
+                "m13-QuantumMeasurementPostulate",
+                "m13-ComputationalBasisMeasurement",
+                "m13-PostMeasurementStates",
+                "m13-quiz-13.1"
+            ],
+            [],
+            [
+                "m13-DensityMatrices",
+                "m13-DensityMatricesMeasurementExample",
+                "m13-DensityMatricesExpansion",
+                "m13-quiz-13.2"
+            ]
+        ],
+        "module_prereqs": [
+            "Linear Algebra",
+            "Complex Numbers",
+            "Quantum Mechanics Fundamentals"
+        ],
+        "module_title": "General Single-Qubit Measurement"
+    },
+    "Single-Qubit Gates and Operations": {
+        "module_concepts": [
+            "Qubit Transformations",
+            "Pauli Matrices",
+            "Building Quantum Circuits"
+        ],
+        "module_outcomes": [
+            "Students will understand and will be able to apply common single-qubit operations (gates).",
+            "Students will be able to build sequential quantum circuits for single qubits.",
+            "Students will be able to compute the effect of given sequential quantum circuit on a qubit."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m14-TransformationsOnQubits",
+                "m14-SingleQubitTransformations",
+                "m14-PauliMatrices",
+                "m14-quiz-14.1"
+            ],
+            [
+                "m14-BuildingCircuits"
+            ],
+            [
+                "m14-ComputingCircuitOperation",
+                "m14-quiz-14.2"
+            ]
+        ],
+        "module_prereqs": [
+            "Linear Algebra",
+            "Quantum Mechanics Fundamentals",
+            "Complex Numbers"
+        ],
+        "module_title": "Single-Qubit Gates and Operations"
+    },
+    "Multi-qubit Systems": {
+        "module_concepts": [
+            "Multi-Qubit Systems",
+            "Exponential Growth in State Space",
+            "Tensor Product",
+            "Orthogonal Basis",
+            "State Space of n-qubit System",
+            "Which Qubits belongs to whom",
+            "Global Phase"
+        ],
+        "module_outcomes": [
+            "Students will represent the state of a multi-qubit system.",
+            "Students will be able to construct the basis for a multi-qubit system."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m15-MultiQubitSystems",
+                "m15-ExponentialGrowthInStateSpace",
+                "m15-RepresentingAQubyte",
+                "m15-TensorProductOfVectorSpacesRecap",
+                "m15-OrthogonalBasis",
+                "m15-Decomposability"
+            ],
+            [
+                "m15-StateSpaceOfANQubitSystem",
+                "m15-WhichQubitBelongsToWhom",
+                "m15-VectorNotationForJointState",
+                "m15-JointStateVectorForm",
+                "m15-GlobalPhaseMultiQubit",
+                "m15-quiz-15.1"
+            ]
+        ],
+        "module_prereqs": [
+            "Linear Algebra",
+            "Quantum Mechanics Fundamentals",
+            "Single-Qubit Operations"
+        ],
+        "module_title": "Multi-qubit Systems"
+    },
+    "Multiple Qubits and Entangled Systems": {
+        "module_concepts": [
+            "Two Qubit Systems",
+            "Measurement",
+            "Entangled Systems",
+            "Measuring Bell State"
+        ],
+        "module_outcomes": [
+            "Students will be able to create joint state representations of quantum systems with multiple qubits.",
+            "Students will understand the notion of entangled quantum systems.",
+            "Students will be able to perform measurements on joint quantum states.",
+            "Students will be able to perform partial-measurements on joint quantum states."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m16-TwoQubitSystems",
+                "m16-Measurement",
+                "m16-PartialMeasurement",
+                "m16-PartialMeasurementExample",
+                "m16-quiz-16.1"
+            ],
+            [
+                "m16-EntangledSystems"
+            ],
+            [
+                "m16-ReverseQuestionDecomposition",
+                "m16-MeasuringTheBellState",
+                "m16-quiz-16.2"
+            ],
+            []
+        ],
+        "module_prereqs": [
+            "Linear Algebra",
+            "Quantum Mechanics Fundamentals",
+            "Quantum State Representation"
+        ],
+        "module_title": "Multiple Qubits and Entangled Systems"
+    },
+    "The EPR Paradox and CHSH Game": {
+        "module_concepts": [
+            "EPR Paradox",
+            "Rotational Invariance",
+            "CHSH Inequality"
+        ],
+        "module_outcomes": [
+            "Students will understand the significance of EPR pairs and their implications.",
+            "Students will understand Bell's inequality and CHSH game that verifies Bell's inequality."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m17-EPRParadox",
+                "m17-EntanglementAndSeparation"
+            ],
+            [
+                "m17-RotationalInvarianceOfBellState",
+                "m17-CHSHInequality",
+                "m17-QuantumAdvantageCHSH",
+                "m17-CHSHGameStrategy",
+                "m17-CHSHGameOutcome"
+            ]
+        ],
+        "module_prereqs": [
+            "Quantum Mechanics Fundamentals",
+            "Linear Algebra",
+            "Probability"
+        ],
+        "module_title": "The EPR Paradox and CHSH Game"
+    },
+    "Multi-Qubit Gates and Operations": {
+        "module_concepts": [
+            "Single Qubit to Mutii Qubit Operations",
+            "True Multi-Qubit Gates",
+            "CNOT Gate",
+            "General Controlled Operation",
+            "Other Multi Qubit Gates",
+            "Universal Gate Set"
+        ],
+        "module_outcomes": [
+            "Students will be able to construct multi-qubit gates from single qubit gates.",
+            "Students will understand the operations of new multi-qubit gates.",
+            "Students will be able to compute outputs of circuits consisting of multiple qubits."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m18-ComposingSingleQubitOperations",
+                "m18-JointGateRepresentation",
+                "m18-JointGateRepresentationConclusion",
+                "m18-GateOperationOnJointQubits"
+            ],
+            [
+                "m18-TrueMultiQubitGates",
+                "m18-TheCNOTGate",
+                "m18-CNOTGateExample",
+                "m18-CNOTGateXOR"
+            ],
+            [
+                "m18-CNOTUnitaryInverse",
+                "m18-CNOTBasisDependency",
+                "m18-CNOTForEntanglement",
+                "m18-GeneralControlledOperation",
+                "m18-CNOTForSwap",
+                "m18-OtherMultiQubitGates",
+                "m18-UniversalGateSet"
+            ]
+        ],
+        "module_prereqs": [
+            "Linear Algebra",
+            "Quantum Mechanics Fundamentals",
+            "Single-Qubit Operations"
+        ],
+        "module_title": "Multi-Qubit Gates and Operations"
+    },
+    "The Three-Stage Quantum Key Distribution Protocol & Entanglement based QKD": {
+        "module_concepts": [],
+        "module_outcomes": [
+            "Students will understand the concept of double lock cryptography.",
+            "Students will know the working of three-stage quantum key distribution protocol.",
+            "Students will be able to apply the concepts of orthogonality of basis, measurement and indistinguishability of non-orthogonal states.",
+            "Students will apply the principle of quantum entanglement and Bell's inequality to construct a quantum key distribution protocol.",
+            "Students will be able to use Bell's inequality to check for eavesdropping.",
+            "Students will be able to simulate Key distribution of three-stage and E91 protocols."
+        ],
+        "module_outcomes_mapping": [
+            [
+                "m22-Background"
+            ],
+            [
+                "m22-3stageQkd",
+                "m22-3stageQkd2",
+                "m22-3stageQkdFlow"
+            ],
+            [
+                "m22-3Stage-Simulator-heading",
+                "m22-3Stage-Simulator"
+            ],
+            [
+                "m22-Introduction-EntanglementQKD",
+                "m22-EPRbasedQkd",
+                "m22-EPRbasedQkdFlow"
+            ],
+            [
+                "m22-E91-Protocol"
+            ],
+            [
+                "m22-SimulationExercises"
+            ]
+        ],
+        "module_prereqs": [],
+        "module_title": [
+            "The Three-Stage Quantum Key Distribution Protocol & Entanglement based QKD"
+        ]
+    }
+}
