@@ -9,6 +9,9 @@ Install Docker and Docker Compose on your system:
 
 ## Setup Instructions
 
+![Docker Setup Demo](setupFiles/dockerSetup.gif)
+<!-- <video src="setupFiles/dockerSetup.mp4" width="100%" controls muted></video> -->
+
 
 You can quickly run this environment with just two commands in terminal (command prompt for windows):
 
