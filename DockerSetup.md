@@ -10,7 +10,10 @@ Install Docker and Docker Compose on your system:
 ## Setup Instructions
 
 
-You can quickly run this environment without cloning the repository by pulling directly from DockerHub:
+You can quickly run this environment with just two commands in terminal (command prompt for windows):
+
+1. **Pull the container image** (download the environment):
+
 ```bash
 docker pull ksucyber/qc-notes:latest
 ```
@@ -18,45 +21,31 @@ docker pull ksucyber/qc-notes:latest
 **Run the container**
 
 ``` bash
-docker run -p 8888:8888 -p 8080:8080 ksucyber/qc-notes:latest
+docker run -p 8888:8888 -v ./notebooks:/code/Quantum_Cryptography_Notes ksucyber/qc-notes:latest
 ```
 
-Access Jupyter Lab at `http://localhost:8888` and noVNC at `http://localhost:8080/vnc.html` as described in the Usage Instructions section below.
-
-**Note:** When running this way, any changes you make will be lost when the container stops. For persistent storage, use the volume mounting option:
-
-``` bash
-# Run with persistent storage
-docker run -p 8888:8888 -p 8080:8080 -v ./notebooks:<any_path_in_host_to_save_data> ksucyber/qc-notes:latest
-```
+Follow Usage Instructions Below
 
 ## Usage Instructions
 
-1. Access Jupyter Lab:
-   - Open your web browser and go to: `http://localhost:8888`
-   - You'll see the Jupyter Lab interface with your notebooks
+- Open your web browser and go to: `http://localhost:8888`
+- You'll see the Jupyter Lab interface with your notebooks
 
-2. For viewing the simulation in Learning Object "22.4 The E91 Protocol":
-   - Before running the simulation cells, open a new browser tab and go to: `http://localhost:8080/vnc.html`
-   - Keep this tab open while running the simulation cells
-   - The simulation will appear in this virtual desktop window
-   - If you don't open this window before running the simulation, you won't be able to see the visualization
+## Stopping the Environment
+
+When you're done using the environment:
+
+1. Go to the terminal where you started the container
+2. Press `CTRL+C` to stop the server
 
 ## How it Works
-- The setup uses two containers:
-  1. Jupyter container: Runs your notebooks and Tkinter applications
-  2. noVNC container: Provides the virtual display server and web interface
-- The simulation in LO 22.4 will display its GUI in the noVNC window
+- The setup uses docker containers:
+  1. Jupyter container: Runs your notebooks
 
+- The `-v ./notebooks:/code/Quantum_Cryptography_Notes` part of the command creates a folder called notebooks on your computer that links to the environment. Any files you save in Jupyter will be stored there and won't be lost when you stop the container.
 ## Troubleshooting
 
-1. If you can't see the simulation:
-   - Make sure you opened `http://localhost:8080` before running the simulation cells
-   - Keep the noVNC tab open while running the simulation
-   - Try rerunning the notebook cells
-   - If still not working, restart the Jupyter kernel and try again
-
-2. If ports are already in use, modify the port mappings in docker-compose.yml:
+1. If you see an error about ports already in use, try different port numbers:
 ```bash
-   docker run -p 8889:8888 -p 8081:8080 ksucyber/qc-notes:latest
+   docker run -p 8889:8888 ksucyber/qc-notes:latest
 ```

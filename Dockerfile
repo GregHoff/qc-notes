@@ -1,5 +1,5 @@
 # Use official Python image as base
-FROM theasp/novnc:latest
+FROM python:3.9-slim
 
 # Set working directory
 WORKDIR /code
@@ -8,8 +8,6 @@ WORKDIR /code
 RUN apt-get update && apt-get install -y \
     gcc \
     g++ \
-    python3 \
-    python3-pip \
     python3-dev \
     python3-tk \
     libx11-6 \
@@ -39,10 +37,10 @@ EXPOSE 8888
 EXPOSE 8080
 
 # Create entrypoint script
-RUN echo '#!/bin/bash\n\
-/app/entrypoint.sh &\n\
-cd /code/Quantum_Cryptography_Notes && jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=""\n' > /code/start.sh && \
-chmod +x /code/start.sh
+# RUN echo '#!/bin/bash\n\
+# /app/entrypoint.sh &\n\
+# cd /code/Quantum_Cryptography_Notes && jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=""\n' > /code/start.sh && \
+# chmod +x /code/start.sh
 
 # Use custom entrypoint
 ENTRYPOINT ["/code/start.sh"]
