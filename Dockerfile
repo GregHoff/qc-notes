@@ -21,7 +21,8 @@ RUN pip install \
     qutip \
     matplotlib \
     qiskit==0.45.2 \
-    qiskit-aer==0.14.2
+    qiskit-aer==0.14.2 \
+    nbformat==5.10.4
     
 RUN pip install Pillow==11.1.0
 
@@ -33,14 +34,8 @@ COPY . .
 
 # Expose Jupyter port
 EXPOSE 8888
-# Expose VNC port
-EXPOSE 8080
 
-# Create entrypoint script
-# RUN echo '#!/bin/bash\n\
-# /app/entrypoint.sh &\n\
-# cd /code/Quantum_Cryptography_Notes && jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=""\n' > /code/start.sh && \
-# chmod +x /code/start.sh
+RUN ["python", "master_page_gen.py"]
 
 # Use custom entrypoint
 ENTRYPOINT ["/code/start.sh"]
