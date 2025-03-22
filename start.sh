@@ -1,5 +1,7 @@
 #!/bin/bash
 
+python master_page_gen.py
+
 cd /code/Quantum_Cryptography_Notes && jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token="" &
 
 # Wait for Jupyter to start
