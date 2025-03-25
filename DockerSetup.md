@@ -15,15 +15,18 @@ Install Docker and Docker Compose on your system:
 
 You can quickly run this environment with just two commands in terminal (command prompt for windows):
 
-1. **Pull the container image** (download the environment):
+1. **Pull the container image** (update the environment):
 
 ```bash
+# Only pull the image when an update is released 
+# (WARNING: pulling will overwrite any changes you've made)
 docker pull ksucyber/qc-notes:latest
 ```
 
 **Run the container**
 
 ``` bash
+# For regular use, just run this command
 docker run -p 8888:8888 -v ./notebooks:/code/Quantum_Cryptography_Notes ksucyber/qc-notes:latest
 ```
 
