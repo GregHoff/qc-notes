@@ -27,7 +27,7 @@ docker pull ksucyber/qc-notes:latest
 
 ``` bash
 # For regular use, just run this command
-docker run -p 8888:8888 -v ./notebooks:/code/Quantum_Cryptography_Notes ksucyber/qc-notes:latest
+docker run -p 8888:8888 -v qc_notes_volume:/code/Quantum_Cryptography_Notes ksucyber/qc-notes:latest
 ```
 
 Follow Usage Instructions Below
