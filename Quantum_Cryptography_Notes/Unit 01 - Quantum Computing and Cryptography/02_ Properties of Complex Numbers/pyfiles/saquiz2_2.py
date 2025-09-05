@@ -41,7 +41,7 @@ def createQuiz2_2():
     display(widgets.HTMLMath(value="<font size=\"+1\">Compute the conjugate for the following complex numbers."))
     qlist2_2_2.append(newfillblank("1. $c$ = -101$i$",0,101j,strInputLayout1))
     qlist2_2_2.append(newfillblank("2. $c$ = 20+1$i$",0,20-1j,strInputLayout1))
-    qlist2_2_2.append(newfillblank("3. $c$ = -1+441$i$",0,-1+441j,strInputLayout1))
+    qlist2_2_2.append(newfillblank("3. $c$ = -1+441$i$",0,-1-441j,strInputLayout1))
     for q in qlist2_2_2:
         display(q[2])
         display(HBox([q[1],q[3],q[4]]))
